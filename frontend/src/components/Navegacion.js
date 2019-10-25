@@ -13,7 +13,7 @@ export default class Navegacion extends Component {
                     <div className="navbar-nav">
                         <NavLink className="nav-item nav-link active" to="#">Inicio <span className="sr-only">(current)</span></NavLink>
                         <NavLink className="nav-item nav-link" to="/productos">Productos</NavLink>
-                        <NavLink className="nav-item nav-link" to="#">Compras</NavLink>
+                        <NavLink className="nav-item nav-link" to="/compras">Compras</NavLink>
                     </div>
                 </div>
             </nav>
